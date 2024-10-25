@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chêne Doré</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/burger.css">
+  <link rel="stylesheet" href="./css/modal-backdrop.css">
+  <link rel="stylesheet" href="./css/media.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header__nav">
+              <h2>Le Chêne Doré</h2>
+              <nav>
+                <ul class="nav">
+                  <li><a href="#main">Main</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#interior">Interior</a></li>
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#contacts">Contacts</a></li>
+                </ul>
+              </nav>
+              <div class="mobile-btn">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="backdrop"></div>
+    </header>
+
+    <main id="main">
+      <div class="container">
+          <div class="main__wrap">
+              <h1>L’élégance de la tradition, l’innovation du goût</h1>
+              <p>Indulge in the essence of gourmet dining, where every moment is crafted to delight</p>
+              <div class="open"><button>Click to make a reservation</button></div>
+          </div>
+      </div>
+  </main>
+
+
+  <div class="modal-backdrop">
+    <div class="modal">
+        <div class="modal__header">
+            <h2>reservation</h2>
+            <div class="close">X</div>
+        </div>
+        <div class="modal-content">
+            <form class="telegram-form">
+                <input class="username" type="text" />
+                <input class="tel" type="number" />
+                <button type="submit">Apply</button>
+            </form>
+        </div>
+        <div class="modal-greeting">
+            <h2>Thank you for apply</h2>
+        </div>
+    </div>
+</div>
+
+  <section id="about" class="accordion-section">
+    <div class="container">
+      <h3>About Us</h3>
+      <div class="accordion-section__wrapper">
+        <div class="accordion accordion--regular"></div>
+        <div class="accordion accordion--self-closed"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interior">
+    <div class="container">
+      <h3>Our Interior</h3>
+      <div class="swiper swiper-1">
+        <div class="swiper-wrapper newSwaper1">
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="container">
+      <h3>Menu</h3>
+        <div class="buttonWrap">
+          <input class="search" type="text" />
+        </div>
+        <div class="outputButton"></div>
+    </div>
+  </section>
+
+  <section id="wine-list">
+    <div class="container">
+      <div class="selectWrap">
+        <select class="categorySelect"></select>
+        <form class="form">
+          <input type="text" />
+          <button type="submit">Search</button>
+          <button type="button" class="clear">Clear</button>
+        </form>
+      </div>
+      <div class="outputSelect"></div>
+    </div>
+  </section>
+
+  <section id="atmosphere">
+    <div class="container">
+      <div class="swiper swiper-2">
+        <div class="swiper-wrapper newSwaper2">
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <div class="row gallery">
+        <div class="col mini-images">
+        </div>
+
+        <div class="col large-image">
+            <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" alt="" class="large">
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695080.2203048635!2d-3.2934305432757824!3d48.72622961886456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671206d01e4e5%3A0x5e3ce502201944bc!2sLa%20Tour%20d&#39;Argent!5e0!3m2!1sru!2skg!4v1729846780302!5m2!1sru!2skg" 
+          width="100%" 
+          height="500" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="col content">
+          <p><strong>Телефон:</strong> <a href="tel:+123456789" target="_blank">+1 (234) 567-89</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/123456789" target="_blank">+1 (234) 567-89</a></p>
+          <p><strong>Telegram:</strong> <a href="https://t.me/yourusername" target="_blank">@yourusername</a></p>
+          <p><strong>Адрес:</strong> <a href="https://www.google.com/maps/search/?api=1&query=Your+Address" target="_blank">Your Address, City, Country</a></p>
+          <div class="qrcode"></div>
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="site-name">Le Chêne Doré</p>
+        </div>
+  
+        <div class="col social-icons">
+              <a href="https://www.facebook.com" target="_blank">
+                  <img src="./photos/5305154_fb_facebook_facebook logo_icon.svg" alt="Facebook">
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                  <img src="./photos/5279123_tweet_twitter_twitter logo_icon.svg" alt="Twitter">
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                  <img src="./photos/5279112_camera_instagram_social media_instagram logo_icon.svg" alt="Instagram">
+              </a>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+
+  <script src="./js/burger.js"></script>
+  <script src="./js/modal-window.js"></script>
+  <script src="./js/accordion.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/filter-button.js"></script>
+  <script src="./js/filter-form.js"></script>
+  <script src="./js/favourite.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./js/qr-code.js"></script>
+</body>
+</html>
